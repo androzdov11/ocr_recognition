@@ -7,7 +7,8 @@ from django.shortcuts import render
 # Create your views here.
 from django.views.decorators.csrf import csrf_exempt
 
-from image_converter.image_controller import handle_image, startRecognition
+from image_converter.image_controller import handle_image
+from image_converter.image_recognise_controller import startRecognition
 
 
 def show_image(request):
@@ -24,8 +25,10 @@ def return_handled_image(request):
 
 @csrf_exempt
 def return_recognized_image(request):
-    handled_path =startRecognition()
-    return HttpResponse(handled_path)
+    image_name = request.POST.get('image_name')
+    image_path = os.path.join('image_alghoritm', 'static', 'image_alghoritm', image_name)
+    handled_path = startRecognition(image_path)
+    return HttpResponse(os.path.split(handled_path)[1])
 
 
 @csrf_exempt

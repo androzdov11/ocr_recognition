@@ -36,11 +36,12 @@
         image_name = first_name;
     }
 
-    function return_recognized_image() {
+    function return_recognized_image(name) {
           jQuery.ajax({
             url: "return_recognized_image",
             type: "POST",
             data: {
+                'image_name': image_name,
             },
             success: function (response) {
                  document.getElementById('img').src = '{% static 'image_alghoritm/' %}' + response;

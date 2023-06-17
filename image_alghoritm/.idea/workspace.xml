@@ -5,10 +5,504 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f5e77b3-2a75-46a7-be0d-6ad2a40708ff" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/image_alghoritm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/image_alghoritm.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image_converter/image_recognise_controller.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/ch_PP-OCR_V3_det/best_accuracy.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/ch_PP-OCR_V3_det/best_accuracy.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/ch_PP-OCR_V3_det/best_accuracy.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/ch_PP-OCR_V3_det/config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/ch_PP-OCR_V3_det/iter_epoch_100.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/ch_PP-OCR_V3_det/iter_epoch_100.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/ch_PP-OCR_V3_det/iter_epoch_100.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/ch_PP-OCR_V3_det/iter_epoch_200.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/ch_PP-OCR_V3_det/iter_epoch_200.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/ch_PP-OCR_V3_det/iter_epoch_200.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/ch_PP-OCR_V3_det/iter_epoch_300.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/ch_PP-OCR_V3_det/iter_epoch_300.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/ch_PP-OCR_V3_det/iter_epoch_300.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/ch_PP-OCR_V3_det/iter_epoch_400.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/ch_PP-OCR_V3_det/iter_epoch_400.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/ch_PP-OCR_V3_det/iter_epoch_400.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/ch_PP-OCR_V3_det/iter_epoch_500.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/ch_PP-OCR_V3_det/iter_epoch_500.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/ch_PP-OCR_V3_det/iter_epoch_500.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/ch_PP-OCR_V3_det/latest.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/ch_PP-OCR_V3_det/latest.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/ch_PP-OCR_V3_det/latest.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/ch_PP-OCR_V3_det/train.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/det_db_inference/inference.pdiparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/det_db_inference/inference.pdiparams.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/det_db_inference/inference.pdmodel" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/rec_cyrillic_lite/config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/rec_cyrillic_lite/train.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/best/best_accuracy.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/best/best_accuracy.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/best/best_accuracy.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/best/config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/inference/inference.pdiparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/inference/inference.pdiparams.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/inference/inference.pdmodel" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_102.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_102.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_102.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_105.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_105.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_105.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_108.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_108.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_108.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_111.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_111.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_111.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_114.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_114.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_114.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_117.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_117.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_117.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_120.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_120.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_120.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_123.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_123.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_123.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_126.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_126.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_126.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_129.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_129.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_129.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_132.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_132.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_132.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_135.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_135.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_135.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_138.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_138.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_138.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_141.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_141.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_141.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_144.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_144.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_144.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_147.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_147.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_147.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_150.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_150.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_150.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_153.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_153.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_153.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_156.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_156.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_156.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_159.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_159.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_159.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_162.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_162.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_162.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_165.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_165.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_165.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_168.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_168.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_168.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_171.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_171.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_171.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_174.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_174.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_174.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_177.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_177.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_177.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_180.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_180.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_180.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_183.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_183.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_183.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_186.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_186.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_186.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_189.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_189.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_189.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_192.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_192.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_192.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_195.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_195.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_195.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_198.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_198.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_198.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_201.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_201.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_201.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_204.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_204.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_204.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_207.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_207.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_207.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_210.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_210.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_210.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_213.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_213.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_213.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_216.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_216.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_216.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_219.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_219.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_219.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_222.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_222.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_222.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_225.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_225.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_225.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_228.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_228.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_228.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_231.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_231.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_231.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_234.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_234.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_234.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_237.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_237.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_237.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_240.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_240.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_240.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_243.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_243.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_243.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_246.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_246.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_246.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_249.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_249.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_249.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_252.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_252.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_252.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_255.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_255.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_255.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_258.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_258.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_258.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_261.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_261.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_261.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_264.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_264.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_264.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_267.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_267.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_267.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_270.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_270.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_270.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_273.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_273.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_273.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_276.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_276.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_276.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_279.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_279.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_279.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_282.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_282.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_282.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_285.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_285.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_285.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_288.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_288.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_288.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_291.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_291.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_291.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_294.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_294.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_294.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_297.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_297.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_297.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_300.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_300.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_300.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_303.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_303.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_303.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_306.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_306.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_306.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_309.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_309.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_309.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_312.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_312.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_312.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_315.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_315.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_315.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_318.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_318.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_318.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_321.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_321.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_321.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_324.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_324.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_324.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_327.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_327.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_327.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_330.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_330.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_330.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_333.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_333.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_333.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_336.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_336.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_336.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_339.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_339.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_339.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_342.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_342.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_342.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_345.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_345.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_345.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_348.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_348.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_348.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_351.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_351.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_351.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_354.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_354.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_354.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_357.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_357.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_357.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_360.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_360.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_360.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_363.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_363.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_363.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_366.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_366.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_366.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_369.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_369.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_369.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_372.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_372.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_372.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_375.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_375.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_375.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_378.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_378.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_378.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_381.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_381.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_381.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_384.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_384.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_384.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_387.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_387.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_387.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_390.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_390.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_390.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_393.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_393.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_393.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_396.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_396.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_396.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_399.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_399.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_399.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_402.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_402.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_402.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_405.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_405.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_405.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_408.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_408.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_408.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_411.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_411.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_411.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_414.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_414.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_414.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_417.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_417.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_417.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_420.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_420.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_420.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_423.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_423.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_423.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_426.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_426.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_426.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_429.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_429.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_429.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_432.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_432.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_432.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_435.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_435.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_435.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_438.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_438.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_438.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_441.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_441.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_441.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_444.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_444.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_444.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_447.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_447.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_447.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_450.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_450.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_450.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_453.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_453.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_453.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_456.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_456.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_456.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_459.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_459.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_459.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_462.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_462.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_462.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_465.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_465.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_465.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_468.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_468.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_468.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_471.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_471.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_471.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_474.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_474.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_474.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_477.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_477.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_477.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_48.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_48.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_48.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_480.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_480.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_480.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_483.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_483.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_483.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_486.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_486.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_486.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_489.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_489.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_489.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_492.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_492.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_492.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_495.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_495.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_495.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_498.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_498.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_498.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_51.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_51.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_51.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_54.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_54.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_54.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_57.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_57.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_57.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_60.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_60.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_60.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_63.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_63.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_63.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_66.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_66.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_66.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_69.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_69.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_69.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_72.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_72.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_72.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_75.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_75.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_75.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_78.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_78.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_78.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_81.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_81.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_81.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_84.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_84.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_84.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_87.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_87.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_87.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_90.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_90.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_90.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_93.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_93.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_93.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_96.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_96.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_96.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_99.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_99.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/iter_epoch_99.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/latest.pdopt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/latest.pdparams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/latest.states" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/v3_cyrillic_mobile/train.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/image_converter/image_controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/image_converter/image_controller.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image_converter/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/image_converter/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +532,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="master1" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1cjLrebPLwI3tjLCXBobEDCDePd" />
@@ -45,21 +544,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/a.drozdov/Documents/Diplom work/diplomwork/image_alghoritm&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/a.drozdov/Documents/Diplom work/diplomwork/image_alghoritm/models",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/models" />
       <recent name="$PROJECT_DIR$/image_alghoritm" />
       <recent name="$PROJECT_DIR$/image_converter" />
       <recent name="$PROJECT_DIR$/image_converter/static" />
@@ -186,13 +686,8 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/image_converter/image_controller.py</url>
-          <line>94</line>
+          <line>30</line>
           <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/image_converter/image_controller.py</url>
-          <line>63</line>
-          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
